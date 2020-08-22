@@ -14,7 +14,7 @@ This demo is using more VRAM than is available by default using KallistiOS.  You
 
 This game includes FMV using a custom video decoder routing written by myself using LibMPEG for video http://libmpeg2.sourceforge.net/
 and LibMPG123 for audio http://www.mpg123.org/api/
-The source code to these projects are included here with a makefile for compiling for Dreamcast, as well as a pre-compiled lib. These libs will need to be included in your K:OS libarary directory to build the main makefile.
+The source code to these projects are included here with a makefile for compiling for Dreamcast, as well as a pre-compiled lib. These libs will need to be included in your KOS libarary directory to build the main makefile.
 
 
 Model Format Notes:
