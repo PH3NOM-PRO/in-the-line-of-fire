@@ -1,0 +1,15 @@
+FPS 15            start count
+IDLE               119   18
+WALK_FORWARD        57   12
+WALK_BACKWARD       68  -12
+WALK_STRAFE_RIGHT   46   11
+WALK_STRAFE_LEFT    56  -11
+WALK_FIRE          137   12
+CROUCH_IDLE        149   20
+CROUCH_FORWARD       1   11
+CROUCH_BACKWARD     11  -11
+FIRE                38    8
+MELEE1              23   15
+DAMAGE              12   11
+DEATH1              69   27
+DEATH2              96   23

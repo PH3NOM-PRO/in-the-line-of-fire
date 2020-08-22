@@ -1,0 +1,8 @@
+lobby/lobby.txt
+stairs/stairs.txt
+exterior/exterior.txt
+vault/vault.txt
+2nd_stairs/2nd_stairs.txt
+2nd_floor/2nd_floor.txt
+roof/roof.txt
+lobby_inside/lobby.txt

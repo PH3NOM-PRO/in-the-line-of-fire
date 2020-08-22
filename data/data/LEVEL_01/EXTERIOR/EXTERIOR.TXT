@@ -1,0 +1,30 @@
+SEGMENT_START EXTERIOR 1
+
+RENDER
+{ 
+    enviroment_01.rbo 0
+    enviroment_02.rbo 0
+    skybox.rbo        0
+    floor.rbo         0
+}
+
+COLLISION
+{
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+    assets/swat_van.txt
+}
+
+TRIGGER
+{
+    off = { 25.02, -104.04, -39.56 };
+    on = { 27.47, -104.41, -37.79 };
+}
+
+SEGMENT_END

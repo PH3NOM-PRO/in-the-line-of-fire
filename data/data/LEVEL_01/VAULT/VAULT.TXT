@@ -1,0 +1,42 @@
+SEGMENT_START VAULT 0
+
+RENDER
+{ 
+    bars.rbo                     0
+    camera_D.rbo                 0
+    vault.rbo                    0
+}
+
+COLLISION
+{
+    vault_collision.cbo
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+    assets/Bomb_cables_plant_D.txt
+    assets/Bomb_clock_vault_D.txt
+}
+
+TRIGGER
+{
+    on = { 25.02, -104.04, -39.56 };
+    off = { 27.47, -104.41, -37.79 };
+}
+
+SOUND_EFFECTS
+{
+    {
+        sfx = "/cd/sound/bombtick/bombtick.wav";
+		pos = { 25.02, -104.04, -39.56 };
+        distance = 500.0f;
+        loop = 1;
+        len = 900;
+	}
+}
+
+SEGMENT_END

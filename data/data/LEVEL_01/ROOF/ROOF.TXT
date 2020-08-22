@@ -1,0 +1,31 @@
+SEGMENT_START ROOF 0
+
+RENDER
+{ 
+    Wall_floor_window_door_D.rbo                     0
+    floor.rbo                 0
+}
+
+COLLISION
+{
+    roof.cbo
+    outside_floor_floor.cbo
+}
+
+DOOR
+{
+    doors/doorb.txt
+}
+
+ASSETS
+{
+}
+
+TRIGGER
+{
+    on = { 44.7, -103.5, 6 }; // Going Up to 2nd FLoor
+    on = { 44.34, -108.6, 6 }; // Going Up to 2nd FLoor
+    off = { 44.7, -106.6 }; // Coming Down From 2nd Floor
+}
+
+SEGMENT_END

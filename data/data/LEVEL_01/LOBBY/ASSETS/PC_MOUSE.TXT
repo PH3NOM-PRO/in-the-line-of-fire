@@ -1,0 +1,14 @@
+instances 2
+shader no_blend
+texture modules_d.pvr
+
+{
+    trans = { 42.483, -34.988, -33.038 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 42.483, -84.96, -33.038 };
+    rot = 0.0f;
+}
+

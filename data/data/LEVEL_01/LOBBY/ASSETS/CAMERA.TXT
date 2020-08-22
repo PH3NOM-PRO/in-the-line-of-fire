@@ -1,0 +1,13 @@
+instances 2
+shader no_blend
+texture camera_d.pvr
+
+{
+    trans = { 0, -11.388, -12.458 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 18.59, -101.667, -12.458 };
+    rot = 90.0f;
+}

@@ -1,0 +1,10 @@
+instances 1
+shader no_blend
+texture counter.pvr
+
+{
+    trans = { 0, 0, 0 };
+    rot = 0.0f;
+}
+
+

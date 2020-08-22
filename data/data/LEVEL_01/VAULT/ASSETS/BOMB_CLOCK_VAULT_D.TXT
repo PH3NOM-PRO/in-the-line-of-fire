@@ -1,0 +1,13 @@
+instances 2
+shader no_blend
+texture vault.pvr
+
+{
+    trans = { 18.989, -61.58, -50.101 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 18.989, -77.698, -50.101 };
+    rot = 0.0f;
+}

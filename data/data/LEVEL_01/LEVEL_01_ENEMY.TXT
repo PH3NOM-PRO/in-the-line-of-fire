@@ -1,0 +1,165 @@
+//
+//
+
+
+{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -296.5, -315.76, -374.10 };
+    dst = { -296.5, -315.76, -874.10 };
+    
+    active = 1   
+    
+    trigger = { -527.2, -315.8, -72.2 };
+}
+
+{
+    model = robber_pantyhose
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -56.5, -315.76, -874.10 };
+    dst = { -56.5, -315.76, -394.10 };
+    
+    active = 1   
+    
+    trigger = { -527.2, -315.8, -72.2 };
+}
+
+{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -133, -441.0, -1084.0 };
+    dst = { -125.5, -441.0, -747.5 };
+    
+    active = 0   
+
+    trigger = { -97.5, -441.0, -712.4 };
+}
+
+{
+    model = robber_pantyhose
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -95, -441, -639 };
+    dst = { -104, -441, -1040 };
+    
+    active = 0   
+    
+    trigger = { -152.7, -441.0, -1057.8 };
+}
+
+{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -419.9, -441, -662 };
+    dst = { -263.9, -441, -662 };
+    
+    active = 0   
+    
+    trigger = { -97.5, -441.0, -712.4 };
+}
+
+// Hallway Going out
+{
+    model = robber_pantyhose
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -453.4, -65.3, 0.6 };
+    dst = { -453.4, -65.3, -825.3 };
+    
+    active = 0   
+    
+    trigger = { -451.4, -65.3, -1033.5 };
+}
+
+// Hallway Coming in
+{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -461.9, -65.3, -1096.6 };
+    dst = { -461.9, -65.3, -831.8 };
+    
+    active = 0   
+
+    trigger = { -461.9, -65.3, -831.8 };
+}
+
+// Hallway outside office # 1
+{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -453.4, 60, 0.6 };
+    dst = { -453.4, 60, -825.3 };
+    
+    active = 0   
+    
+    trigger = { -451.4, 60, -1033.5 };
+}
+
+// Hallway outside office # 2
+//{
+    model = robber_skimask
+    skin = robber_skimask
+    weapon = HK_USP
+        
+    src = { -481.3, 60, -581.2 };
+    dst = { -481.3, 60, -986.3 };
+    
+    active = 0   
+    
+    trigger = { -451.4, 60, -1033.5 };
+//}
+
+// inside office
+{
+    model = robber_pantyhose
+    skin = robber_pantyhose
+    weapon = HK_USP
+        
+    src = { -47.4, 60, -968.0 };
+    dst = { -325, 60, -958.5 };
+    
+    active = 0   
+    
+    trigger = { -433.9, 60, -994.8 };
+}
+
+// Outside Hallway heading in
+{
+    model = robber_pantyhose
+    skin = robber_pantyhose
+    weapon = HK_USP
+        
+    src = { -484.7, 60.0, -964.6 };
+    dst = { -382.6, 60.0, -964.6 };
+    
+    active = 0   
+
+    trigger = { -382.6, 60.0, -964.6 };
+}
+
+{
+    model = robber_clown
+    skin = robber_clown
+    weapon = HK_USP
+        
+    src = { -428.8, 185.3, -226.6 };
+    dst = { -436.8, 185.3, -676.6 };
+    
+    active = 0   
+    
+    trigger = { -456.8, 185.3, -1005.6 };
+}

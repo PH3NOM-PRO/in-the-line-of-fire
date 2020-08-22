@@ -1,0 +1,10 @@
+FPS 12 start count
+IDLE      0     1
+EQUIP     5     4
+HOLSTER   1     4
+FIRE      9     5
+MELEE1   28    12
+MELEE2    0     1
+RELOAD   40    13
+WALK     19     9
+RUN      14     5

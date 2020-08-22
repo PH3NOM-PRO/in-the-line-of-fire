@@ -1,0 +1,31 @@
+SEGMENT_START LOBBY_INSIDE 1
+
+RENDER
+{ 
+}
+
+COLLISION
+{
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+    assets/clerk_desk.txt           0
+    assets/pc_screen.txt            1
+    assets/lobby_desk.txt           1
+}
+
+TRIGGER
+{
+    off = { 25.02, -104.04, -39.56 }; // Going Down To Vault
+    on = { 27.47, -104.41, -37.79 }; // Coming up From Vault
+    off = { 14.45, -103.23, -6.53 }; // Going Up to 2nd FLoor
+    on = { 15.99, -109.02, -6.53 }; // Coming Down From 2nd Floor
+    on = { 52.72, -7.22, -31.58 }; // Coming IN from outside
+}
+
+SEGMENT_END

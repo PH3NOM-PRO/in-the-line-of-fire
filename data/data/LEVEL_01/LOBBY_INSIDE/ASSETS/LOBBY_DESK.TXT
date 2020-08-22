@@ -1,0 +1,20 @@
+instances 3
+shader no_blend
+texture counter.pvr
+
+{
+    trans = { 16.695, -37.41, -37.576 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 16.695, -55.587, -37.576 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 16.695, -73.943, -37.576 };
+    rot = 0.0f;
+}
+		  
+		  

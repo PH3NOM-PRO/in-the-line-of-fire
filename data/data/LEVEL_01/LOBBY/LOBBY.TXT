@@ -1,0 +1,46 @@
+SEGMENT_START LOBBY 1
+
+RENDER
+{ 
+    Doors_Bank_door_D.rbo        0
+    entrance_counter_D.rbo       0
+    wall_floor_window_door_d.rbo 0
+    glass.rbo                    0
+    floor.rbo                    0
+    counter.rbo                  0
+    ceiling.rbo                  0
+    bars.rbo                     0
+    reja_d.rbo                   0
+    lm_lobby_00.rbo              0
+}
+
+COLLISION
+{
+    lobby.cbo
+    upstairs_wall.cbo
+}
+
+DOOR
+{
+    doors/doora.txt
+    doors/doorb.txt
+}
+
+ASSETS
+{
+    assets/camera.txt               0
+    assets/pc_mouse.txt             0
+    assets/keyboard.txt             0
+    assets/Plant_pot_assets_S.txt   1
+    assets/Plant_leaves_plant_D.txt 0
+}
+
+TRIGGER
+{
+    off = { 25.02, -104.04, -39.56 }; // Going Down To Vault
+    on = { 27.47, -104.41, -37.79 }; // Coming up From Vault
+    off = { 14.45, -103.23, -6.53 }; // Going Up to 2nd FLoor
+    on = { 15.99, -109.02, -6.53 }; // Coming Down From 2nd Floor
+}
+
+SEGMENT_END

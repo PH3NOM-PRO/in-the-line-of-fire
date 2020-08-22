@@ -1,0 +1,8 @@
+instances 1
+shader no_blend
+texture Wall_foor_window_door_D
+
+{
+    trans = { 40.435, -94.483, -37.576 };
+    rot = 0.0f;
+}

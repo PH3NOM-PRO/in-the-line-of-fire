@@ -1,0 +1,28 @@
+SEGMENT_START STAIRS2 1
+
+RENDER
+{ 
+    Wall_floor_window_door_D.rbo                     0
+    assets.rbo                 0
+}
+
+COLLISION
+{
+    2nd_stairs.cbo
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+}
+
+TRIGGER
+{
+    on = { 44.31, -106.51, -6.53 }; // Coming up From 1st Floor
+    off = { 43.81, -104.17, -6.53 }; // Going Down To 1st Floor
+}
+
+SEGMENT_END

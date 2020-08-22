@@ -1,0 +1,13 @@
+instances 2
+shader no_blend
+texture assets.pvr
+
+{
+    trans = { 53.31, 3.17, -37.573 };
+    rot = 0.0f;
+}
+
+{
+    trans = { 53.31, -26.51, -37.573 };
+    rot = 0.0f;
+}

@@ -1,0 +1,37 @@
+SEGMENT_START OUTSIDE 1
+
+RENDER
+{ 
+    logo.rbo                     0
+    facade_bars_reja_D.rbo       0
+    Wall_floor_window_door_DO1.rbo 0
+    Wall_floor_window_door_DO2.rbo 0
+    Wall_floor_window_door_D.rbo 0
+    up_floor_glass.rbo           0
+    Hole_filling_ceiling.rbo    0
+    floor.rbo                   0
+}
+
+COLLISION
+{
+    Wall_foor_window_door_D.cbo
+    outside_floor_floor.cbo
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+    assets/Plant_pot_assets_S.txt   0
+    assets/Plant_leaves_plant_D.txt 0
+}
+
+TRIGGER
+{
+    off = { 46.25, -71.9, -31.58 }; // Coming into Lobby from Outside - Door On Right
+    on = { 53.07, -16.33, -31.58 }; // Going Outside From Lobby - Door On Left
+}
+
+SEGMENT_END

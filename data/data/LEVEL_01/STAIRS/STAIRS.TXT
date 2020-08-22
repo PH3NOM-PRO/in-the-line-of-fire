@@ -1,0 +1,22 @@
+SEGMENT_START STAIRS 1
+
+RENDER
+{ 
+    wall_floor_window_door_d.rbo 0
+    assets.rbo                   0
+    bars.rbo                     0
+    camera_d.rbo                 0
+}
+
+COLLISION
+{
+    stair_collision.cbo
+}
+
+TRIGGER
+{
+    off = { 14.14, -103.74, 6.0 }; // Going Up to Roof
+    on = { 14.92, -107.3, 6.0 }; // Coming Down From Roof
+}
+
+SEGMENT_END

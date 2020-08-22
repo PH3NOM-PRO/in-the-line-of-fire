@@ -1,0 +1,37 @@
+SEGMENT_START 2NDFLOOR 0
+
+RENDER
+{ 
+    Wall_floor_window_door_D.rbo 0
+    glass.rbo                    0
+    Bars.rbo                     0
+    assets.rbo                   0
+}
+
+COLLISION
+{
+    2nd_floor.cbo
+}
+
+DOOR
+{
+}
+
+ASSETS
+{
+    assets/Desk_modules_D.txt          1
+    assets/Plant_pot_assets_S.txt      1
+    assets/Plant_leaves_plant_D.txt    0
+    assets/modules_modules_D.txt       1
+    assets/PC_screen.txt               0
+}
+
+TRIGGER
+{
+    on = { 30.93, -109.54, -6.53 }; // Going Up to 2nd FLoor
+    off = { 36.53, -109.54, -6.53 }; // Coming Down From 2nd Floor
+    off = { 14.14, -103.74, 6.0 }; // Going Up to Roof
+    on = { 14.92, -107.3, 6.0 }; // Coming Down From Roof
+}
+
+SEGMENT_END

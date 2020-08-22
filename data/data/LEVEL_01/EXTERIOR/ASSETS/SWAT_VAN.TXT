@@ -1,0 +1,8 @@
+instances 1
+shader no_blend
+texture swat_van_d.pvr
+
+{
+    trans = { 133, -4, -40 };
+    rot = 126.0f;
+}
